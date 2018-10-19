@@ -1,16 +1,19 @@
 USTH ICT 2019 Android Application Development
 =====================================================
 
-Students are expected to:
-
-* Fork this repository to your github account
-* Update student name and ID to this README file
-* Push your commits regularly, with proper commit messages
-
-Student Info
+Student Group Info
 =======================
 
-* Name: *YourNameHere*
-* ID: *YourIdHere*
-* Group ID: *Your Group ID here*
-* Project Name: *Your Project Name here*
+* Name: <br />
+        Duong Quoc Tue <br />
+        Huynh Vinh Nam <br />
+        Le Huy Duc <br />
+        Nguyen Minh Duc <br />
+* ID: <br />
+      Duong Quoc Tue   USTHBI7-036 <br />
+      Huynh Vinh Nam   USTHBI7-114 <br />
+      Le Huy Duc       USTHBI7-036 <br />
+      Nguyen Minh Duc  USTHBI7-038 <br />
+      
+* Group ID: 6
+* Project Name: Moodle Client
