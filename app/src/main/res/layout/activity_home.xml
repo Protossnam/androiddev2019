@@ -14,6 +14,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,13 +47,21 @@
 
                 <TextView
                     android:id="@+id/text_1"
-                    android:layout_width="match_parent"
+                    android:layout_width="@dimen/text_width"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="@dimen/image_margin"
                     android:layout_marginRight="@dimen/image_margin"
                     android:gravity="center_vertical"
-                    android:textSize="@dimen/text_size"
-                    android:text="@string/course_categories" />
+                    android:text="@string/course_categories"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/image_right_arrow_1"
+                    android:layout_width="@dimen/image_wh_very_small"
+                    android:layout_height="@dimen/image_wh_very_small"
+                    android:layout_marginLeft="@dimen/image_margin"
+                    android:layout_gravity="center"
+                    android:src="@drawable/right_arrow" />
             </LinearLayout>
 
             <!-- My Courses -->
@@ -71,13 +80,21 @@
 
                 <TextView
                     android:id="@+id/text_2"
-                    android:layout_width="match_parent"
+                    android:layout_width="@dimen/text_width"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="@dimen/image_margin"
                     android:layout_marginRight="@dimen/image_margin"
                     android:gravity="center_vertical"
-                    android:textSize="18sp"
-                    android:text="@string/course_my_courses" />
+                    android:text="@string/course_my_courses"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/image_right_arrow_2"
+                    android:layout_width="@dimen/image_wh_very_small"
+                    android:layout_height="@dimen/image_wh_very_small"
+                    android:layout_marginLeft="@dimen/image_margin"
+                    android:layout_gravity="center"
+                    android:src="@drawable/right_arrow" />
             </LinearLayout>
 
             <!-- Site news -->
@@ -95,13 +112,21 @@
 
                 <TextView
                     android:id="@+id/text_3"
-                    android:layout_width="match_parent"
+                    android:layout_width="@dimen/text_width"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="@dimen/image_margin"
                     android:layout_marginRight="@dimen/image_margin"
                     android:gravity="center_vertical"
-                    android:textSize="@dimen/text_size"
-                    android:text="@string/course_site_news" />
+                    android:text="@string/course_site_news"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/image_right_arrow_3"
+                    android:layout_width="@dimen/image_wh_very_small"
+                    android:layout_height="@dimen/image_wh_very_small"
+                    android:layout_marginLeft="@dimen/image_margin"
+                    android:layout_gravity="center"
+                    android:src="@drawable/right_arrow" />
             </LinearLayout>
 
             <!-- Lecturer Guide -->
@@ -119,13 +144,21 @@
 
                 <TextView
                     android:id="@+id/text_4"
-                    android:layout_width="match_parent"
+                    android:layout_width="@dimen/text_width"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="@dimen/image_margin"
                     android:layout_marginRight="@dimen/image_margin"
                     android:gravity="center_vertical"
-                    android:textSize="@dimen/text_size"
-                    android:text="@string/course_lecturer_guide" />
+                    android:text="@string/course_lecturer_guide"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/image_download_1"
+                    android:layout_width="@dimen/image_wh_small"
+                    android:layout_height="@dimen/image_wh_small"
+                    android:layout_marginLeft="@dimen/image_margin"
+                    android:layout_gravity="center"
+                    android:src="@drawable/download" />
             </LinearLayout>
 
             <!-- Student Guide -->
@@ -143,13 +176,21 @@
 
                 <TextView
                     android:id="@+id/text_5"
-                    android:layout_width="match_parent"
+                    android:layout_width="@dimen/text_width"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="@dimen/image_margin"
                     android:layout_marginRight="@dimen/image_margin"
                     android:gravity="center_vertical"
-                    android:textSize="@dimen/text_size"
-                    android:text="@string/course_student_guide" />
+                    android:text="@string/course_student_guide"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/image_download_2"
+                    android:layout_width="@dimen/image_wh_small"
+                    android:layout_height="@dimen/image_wh_small"
+                    android:layout_marginLeft="@dimen/image_margin"
+                    android:layout_gravity="center"
+                    android:src="@drawable/download" />
             </LinearLayout>
 
             <!-- Assistant Guide -->
@@ -167,13 +208,21 @@
 
                 <TextView
                     android:id="@+id/text_6"
-                    android:layout_width="match_parent"
+                    android:layout_width="@dimen/text_width"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="@dimen/image_margin"
                     android:layout_marginRight="@dimen/image_margin"
                     android:gravity="center_vertical"
-                    android:textSize="@dimen/text_size"
-                    android:text="@string/course_assistant_guide" />
+                    android:text="@string/course_assistant_guide"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/image_download_3"
+                    android:layout_width="@dimen/image_wh_small"
+                    android:layout_height="@dimen/image_wh_small"
+                    android:layout_marginLeft="@dimen/image_margin"
+                    android:layout_gravity="center"
+                    android:src="@drawable/download" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
