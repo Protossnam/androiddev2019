@@ -2,17 +2,15 @@ package vn.edu.usth.moodle;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
 import android.widget.*;
 import android.view.*;
 import android.content.DialogInterface.OnCancelListener;
 
+
 /**
  * This is "Site Home" screen. Provides an overview about Moodle
  */
-
 public class HomeActivity extends AppCompatActivity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
