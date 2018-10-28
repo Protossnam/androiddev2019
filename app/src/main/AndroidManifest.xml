@@ -18,14 +18,17 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/app_name">
+
+            <!-- add this section on the activity you wish to make as the starting activity -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <!-- end section -->
         </activity>
 
         <activity
-            android:name=".MainActivity">
+            android:name=".HomeActivity">
         </activity>
 
     </application>
