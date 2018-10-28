@@ -2,9 +2,9 @@ package vn.edu.usth.moodle;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.*;
-import android.view.*;
-import android.content.DialogInterface.OnCancelListener;
+import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.Toast;
 
 
 /**
@@ -17,6 +17,11 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        configureOnClick();
+    }
+
+
+    public void configureOnClick() {
         LinearLayout ll1 = findViewById(R.id.ll_1);
         ll1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,6 +69,5 @@ public class HomeActivity extends AppCompatActivity {
                 Toast.makeText(HomeActivity.this, "You clicked the Moodle Assistant Guide", Toast.LENGTH_SHORT).show();
             }
         });
-
     }
 }
