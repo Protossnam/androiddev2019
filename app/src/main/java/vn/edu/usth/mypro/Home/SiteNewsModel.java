@@ -32,13 +32,23 @@ public class SiteNewsModel {
         this.title = title;
     }
 
-
     public static ArrayList<SiteNewsModel> SiteNews = new ArrayList<>();
 
     public static void init() {
-        SiteNews.add(new SiteNewsModel(R.drawable.pdf, "Moodle guide 1"));
-        SiteNews.add(new SiteNewsModel(R.drawable.pdf, "Moodle guide 2"));
-        SiteNews.add(new SiteNewsModel(R.drawable.pdf, "Moodle guide 3"));
+        SiteNews.add(new SiteNewsModel(R.drawable.news, "Site News"));
+        SiteNews.add(new SiteNewsModel(R.drawable.pdf, "Moodle Lecturer Guide"));
+        SiteNews.add(new SiteNewsModel(R.drawable.pdf, "Moodle Student Guide"));
+        SiteNews.add(new SiteNewsModel(R.drawable.pdf, "Moodle Assistant Guide"));
+        SiteNews.add(new SiteNewsModel(R.drawable.pdf, "1"));
+        SiteNews.add(new SiteNewsModel(R.drawable.pdf, "2"));
+        SiteNews.add(new SiteNewsModel(R.drawable.pdf, "3"));
+        SiteNews.add(new SiteNewsModel(R.drawable.pdf, "4"));
+        SiteNews.add(new SiteNewsModel(R.drawable.pdf, "5"));
+        SiteNews.add(new SiteNewsModel(R.drawable.pdf, "6"));
+        SiteNews.add(new SiteNewsModel(R.drawable.pdf, "7"));
+        SiteNews.add(new SiteNewsModel(R.drawable.pdf, "8"));
+        SiteNews.add(new SiteNewsModel(R.drawable.pdf, "9"));
+        SiteNews.add(new SiteNewsModel(R.drawable.pdf, "10"));
 
     }
 }

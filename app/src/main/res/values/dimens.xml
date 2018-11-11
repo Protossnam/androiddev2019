@@ -5,10 +5,12 @@
 
     <!-- default activity_home margins -->
     <dimen name="image_margin">10dp</dimen>
+    <dimen name="image_margin_2">20dp</dimen>
     <dimen name="image_wh">45dp</dimen>
     <dimen name="image_wh_very_small">15dp</dimen>
     <dimen name="image_wh_small">25dp</dimen>
     <dimen name="text_width">220dp</dimen>
+    <dimen name="text_width_2">340dp</dimen>
     <dimen name="text_lr">10dp</dimen>
     <dimen name="text_size">18sp</dimen>
 

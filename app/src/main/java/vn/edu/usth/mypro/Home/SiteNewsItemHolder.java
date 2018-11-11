@@ -33,6 +33,14 @@ public class SiteNewsItemHolder extends RecyclerView.ViewHolder {
         data = news;
         imv.setImageResource(news.getImageID());
         tv.setText(news.getTitle());
-        btn.setBackgroundResource(R.drawable.download);
+        tv.setTextSize(18);
+        if (news.getTitle() == "Site News") {
+            btn.setBackgroundResource(R.drawable.right_arrow);
+            btn.setLayoutParams(new android.widget.LinearLayout.LayoutParams(30, 30));
+        }
+        else {
+            btn.setBackgroundResource(R.drawable.download);
+            btn.setLayoutParams(new android.widget.LinearLayout.LayoutParams(45, 45));
+        }
     }
 }

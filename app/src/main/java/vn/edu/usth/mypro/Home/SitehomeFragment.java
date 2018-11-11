@@ -42,7 +42,7 @@ public class SitehomeFragment extends Fragment {
         myAdapter.notifyDataSetChanged();
         rvList.setAdapter(myAdapter);
         rvList.setLayoutManager(new LinearLayoutManager(getActivity()));
-        Log.d("Aadpter","" + myAdapter.getItemCount());
+        Log.d("Adapter","" + myAdapter.getItemCount());
         return view;
     }
 
